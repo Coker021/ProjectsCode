@@ -1,0 +1,347 @@
+#homepageid{
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-areas:
+                "header header header header"
+                "mast mast mast mast"
+                "main main main main"
+                "footer footer footer footer";
+    background-color: #CFC4BA;
+    justify-content: center;
+    align-content: center;
+}
+p,a,li{
+    font-size: 1.2em;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h1,h2,h3{
+    text-align: center;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+h1{
+    font-size: 40px;
+}
+img{
+    transition: 2s;
+}
+img:hover{
+    transform: scale(1.1);
+    z-index: 2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.aboutustext{
+    text-align: justify;
+}
+.header{
+    grid-area: header;
+}
+/** masthead styling **/
+.mast-head{
+    margin: 0px;
+    padding: 0px;
+    grid-area: mast;
+}
+/** main styling **/
+main{
+    margin: 0px;
+    padding: 0px;
+    grid-area: main;
+}
+.homepage-sec1{
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: 1280px;
+    display: grid;
+    grid-template-areas: 'electsec  footwear household beauty';
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-content: space-around;
+}
+.electronic-sec{
+    margin: 10px;
+    width: auto;
+    height: auto;
+    grid-area: electsec;
+    display: grid;
+    grid-template-areas:
+    'eleh2 eleh2'
+    'eleitem1 eleitem2'
+    'eleitem3 eleitem4';
+    grid-template-rows: 10% 45% 45%;
+    grid-template-columns: 50% 50%;
+    background-color: white;
+    border-radius: 4px;
+}
+.elect-h2{
+    grid-area: eleh2;
+}
+.elect-item1{
+    grid-area: eleitem1;
+}
+.elect-item2{
+    grid-area: eleitem2;
+}
+.elect-item3{
+    grid-area: eleitem3;
+}
+.elect-item4{
+    grid-area: eleitem4;
+}
+.footwear-sec{
+    margin: 10px;
+    width: auto;
+    height: auto;
+    grid-area: footwear;
+    display: grid;
+    grid-template-areas:
+    'foth2 foth2'
+    'fotitem1 fotitem2'
+    'fotitem3 fotitem4';
+    grid-template-rows: 10% 45% 45%;
+    grid-template-columns: 50% 50%;
+    background-color: white;
+    border-radius: 4px;
+}
+.foot-h2{
+    grid-area: foth2;
+}
+.foot-item1{
+    grid-area: fotitem1;
+}
+.foot-item2{
+    grid-area: fotitem2;
+}
+.foot-item3{
+    grid-area: fotitem3;
+}
+.foot-item4{
+    grid-area: fotitem4;
+}
+.household-sec{
+    margin: 10px;
+    width: auto;
+    height: auto;
+    grid-area: household;
+    display: grid;
+    grid-template-areas:
+    'househ2 househ2'
+    'houitem1 houitem2'
+    'houitem3 houitem4';
+    grid-template-rows: 10% 45% 45%;
+    grid-template-columns: 50% 50%;
+    background-color: white;
+    border-radius: 4px;
+}
+.house-h2{
+    grid-area: househ2;
+}
+.house-item1{
+    grid-area: houitem1;
+}
+.house-item2{
+    grid-area: houitem2;
+}
+.house-item3{
+    grid-area: houitem3;
+}
+.house-item4{
+    grid-area: houitem4;
+}
+.beauty-sec{
+    margin: 10px;
+    width: auto;
+    height: auto;
+    grid-area: beauty;
+    display: grid;
+    grid-template-areas:
+    'beauh2 beauh2'
+    'beaitem1 beaitem2'
+    'beaitem3 beaitem4';
+    grid-template-rows: 10% 45% 45%;
+    grid-template-columns: 50% 50%;
+    background-color: white;
+    border-radius: 4px;
+}
+.beau-h2{
+    grid-area: beauh2;
+}
+.beau-item1{
+    grid-area: beaitem1;
+}
+.beau-item2{
+    grid-area: beaitem2;
+}
+.beau-item3{
+    grid-area: beaitem3;
+}
+.beau-item4{
+    grid-area: beaitem4;
+}
+.homepage-sec2{
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: 1280px;
+    display: grid;
+    grid-template-areas: 'movies great arrival';
+    grid-template-columns: 50% 25% 25%;
+}
+.movies-sec{
+    margin: 10px;
+    width: auto;
+    height: auto;
+    grid-area: movies;
+    display: grid;
+    grid-template-areas:
+    'movieh2 movieh2'
+    'movie1 movie2'
+    'movie3 movie4';
+    grid-template-rows: 10% 45% 45%;
+    grid-template-columns: 50% 50%;
+    background-color: white;
+    border-radius: 4px;
+    justify-content: space-around;
+}
+.movh2{
+    grid-area: movieh2;
+}
+.movie-item1{
+    grid-area: movie1;
+    padding-left: 60px;
+}
+.movie-item2{
+    grid-area: movie2;
+}
+.movie-item3{
+    grid-area: movie3;
+    padding-left: 60px;
+}
+.movie-item4{
+    grid-area: movie4;
+}
+.great-deals{
+    margin: 10px;
+    width: auto;
+    height: auto;
+    grid-area: great;
+    display: grid;
+    grid-template-areas:
+    'greath2 greath2';
+    background-color: white;
+    border-radius: 4px;
+}
+.greath2{
+    grid-area: greath2;
+}
+.new-arrivals{
+    margin: 10px;
+    width: auto;
+    height: auto;
+    grid-area: arrival;
+    display: grid;
+    grid-template-areas:
+    'arrih2 arrih2';
+    background-color: white;
+    border-radius: 4px;
+}
+.arrivh2{
+    grid-area: arrih2;
+}
+.homepage-sec3{
+    margin: 20px;
+    padding: 0px;
+    width: 1240px;
+    height: auto;
+    display: grid;
+    grid-template-areas:
+    'booh2div booh2div booh2div booh2div booh2div booh2div'
+    'boitem1 boitem2 boitem3 boitem4 boitem5 boitem6';
+    grid-template-rows: 20% 80%;
+    border-radius: 4px;
+    background-color: white;
+    justify-content: space-around;
+}
+.homepage-sec3 > div{
+    margin: 0px;
+    padding: 0px;
+}
+.booh2div{
+    grid-area: booh2div;
+}
+.bookh2{
+    grid-area: booh2;
+    text-align: center
+}
+.book-item1{
+    grid-area: boitem1;
+}
+.book-item2{
+    grid-area: boitem2;
+}
+.book-item3{
+    grid-area: boitem3;
+}
+.book-item4{
+    grid-area: boitem4;
+}
+.book-item5{
+    grid-area: boitem5;
+}
+.book-item6{
+    grid-area: boitem6;
+}
+.homepage-sec4{
+    margin: 20px;
+    padding: 0px;
+    width: 1240px;
+    height: auto;
+    display: grid;
+    grid-template-areas:
+    'offh2div offh2div offh2div offh2div offh2div offh2div'
+    'offitem1 offitem2 offitem3 offitem4 offitem5 offitem6';
+    grid-template-rows: 20% 80%;
+    background-color: white;
+    border-radius: 4px;
+    justify-content: space-around;
+}
+.officialh2div{
+    grid-area: offh2div;
+}
+.offh2{
+    grid-area: offh2;
+    text-align: center
+}
+.offical-item1{
+    grid-area: offitem1;
+}
+.offical-item2{
+    grid-area: offitem2;
+}
+.offical-item3{
+    grid-area: offitem3;
+}
+.offical-item4{
+    grid-area: offitem4;
+}
+.offical-item5{
+    grid-area: offitem5;
+}
+.offical-item6{
+    grid-area: offitem6;
+    margin-bottom: 200px;
+}
+/** footer styling **/
+footer{
+    grid-area: footer;
+    height: 70vh;
+    background-color: #000000;
+    color: #f7e6da;
+}
